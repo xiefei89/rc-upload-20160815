@@ -21,7 +21,7 @@
     "lib",
     "src"
   ],
-  "main": "./src/index",
+  "main": "./lib/index",
   "config": {
     "port": 8020
   },
@@ -40,6 +40,9 @@
   },
   "devDependencies": {
     "babel-cli": "^6.11.4",
+    "babel-plugin-react-transform": "^2.0.2",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.13.2",
     "co-busboy": "^1.3.0",
     "expect.js": "0.3.x",
     "pre-commit": "1.x",
