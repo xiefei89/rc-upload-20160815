@@ -19,7 +19,7 @@ webpackJsonp([0],[
 	
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 	
-	var _rcUpload = __webpack_require__(176);
+	var _rcUpload = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"rc-upload\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 	
 	var _rcUpload2 = _interopRequireDefault(_rcUpload);
 	
